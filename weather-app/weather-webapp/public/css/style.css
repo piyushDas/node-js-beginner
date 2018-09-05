@@ -1,0 +1,78 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: 100%;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+fieldset {
+  display: block;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+.ghost-input, p {
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #ffffffa3;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+.ghost-button {
+  background-color: #f1f1f194;
+  font-size: 18px;
+  width: 100%;
+  min-width: 350px;
+  padding: 10px;
+  border: 2px solid trasparent;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+
+}
+.ghost-button:hover {
+  border: 1px solid #009688;
+  background: #fff;
+  color: #009688;
+}
+p {
+  color: #009688;
+  text-align: center;
+  background: #fffc;
+  box-shadow: 2px 2px 10px #00000085;
+}
